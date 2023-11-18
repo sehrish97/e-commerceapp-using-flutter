@@ -29,8 +29,8 @@ class _MainHomeViewState extends State<MainHomeView> {
             DrawerHeader(
               decoration: BoxDecoration(color: Colors.blue),
               child: UserAccountsDrawerHeader(
-                accountName: Text("Muhammad Sabeel Ahmed"),
-                accountEmail: Text("sabeel@gmail.com"),
+                accountName: Text("Sehrish Sehr"),
+                accountEmail: Text("Sehr@gmail.com"),
                 currentAccountPicture: CircleAvatar(
                   child: Text("S"),
                 ),

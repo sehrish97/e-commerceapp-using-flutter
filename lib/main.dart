@@ -1,5 +1,6 @@
 import 'package:counterapp1/counterscreen.dart';
 import 'package:counterapp1/homescreen.dart';
+import 'package:counterapp1/loginScreen/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MainHomeView(),
+      home: LoginView(),
     );
   }
 }
